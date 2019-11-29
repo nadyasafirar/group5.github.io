@@ -1,0 +1,59 @@
+* {             /this used for this html/
+    margin: 0;
+    padding: 0;        
+}                   
+body {
+    background-color: darkolivegreen; /background color for body/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /in this tag there is many type of font and every ","/
+    font-size: 12px; /size for every font/
+    line-height: 20px; /used for distance every each paragraph in the body/
+}
+/Template for the home page/
+#menu{
+    height: 30px;
+    line-height: 30px; /distance for every each paragraph in menu/
+    background-color: grey; /background color for id "menu"/
+    color: white; /color for every font in the menu id/
+}
+#menu ul {                  /* This used for menu, if we didn't insert this one. the menu will be not structured in line*/
+    list-style-type: none;
+    padding-left: 30px;
+    }
+#menu ul li {       
+    display: block; /this css used for menu/
+    }
+#menu ul li a {
+    padding: 20px; /why we add this padding, because if we did not make this one, the position will change./
+    text-decoration: none; /text decoration used for remove the blue text color from tag<a?/
+    font-weight: 600; /fot this one, it will make your font weight/
+    font-size: 12px; /this is for font size in tag <ul> <li> (menu)/
+    color: whitesmoke /color for every text tag ul,li,and a in the id "menu"/
+    }
+#header{
+    height: 160px; /height for #header/
+    background-color: darkslategray; /background color for header/
+}
+#headerh1 { 
+    font-size: 45px; 
+    letter-spacing: -7px; /this used for spacing for every each letter in the tag <h1>. if you don't need this one. just delete this tag/
+    padding: 17px 0 0 10px;
+    color: #fff; /this color for h1 in id headerh1, "#fff" it self for giving white color/
+}
+
+.title h1{
+    text-align: center; /will make your title go to center postion/
+}
+
+.isi{
+    width: 60%; /width for div/
+    margin: 0 auto; /this margin will make your <div class "isi"> in the center postion/
+    height: 200px; /height for div/
+    margin-right: -0.9px;
+    
+}
+
+img{ /this used for image/
+    float: left;/will make your image to left/
+    width: 500px;/width for image/
+    height: 300px;/height for image/
+}
